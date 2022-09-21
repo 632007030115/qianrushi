@@ -1,2 +1,0 @@
-# qianrushi
-codes in homeworks
