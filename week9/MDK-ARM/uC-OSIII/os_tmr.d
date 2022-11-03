@@ -1,0 +1,15 @@
+uc-osiii\os_tmr.o: uCOS-III\Source\os_tmr.c
+uc-osiii\os_tmr.o: .\uCOS-III\Source\os.h
+uc-osiii\os_tmr.o: .\uC-CONFIG\os_cfg.h
+uc-osiii\os_tmr.o: .\uC-CPU\ARM-Cortex-M3\RealView\cpu.h
+uc-osiii\os_tmr.o: .\uC-CPU\cpu_def.h
+uc-osiii\os_tmr.o: .\uC-CONFIG\cpu_cfg.h
+uc-osiii\os_tmr.o: .\uC-CPU\cpu_core.h
+uc-osiii\os_tmr.o: .\uC-LIB\lib_def.h
+uc-osiii\os_tmr.o: .\uC-LIB\lib_mem.h
+uc-osiii\os_tmr.o: .\uC-CPU\cpu_core.h
+uc-osiii\os_tmr.o: .\uC-CONFIG\lib_cfg.h
+uc-osiii\os_tmr.o: .\uC-LIB\lib_str.h
+uc-osiii\os_tmr.o: .\uC-LIB\lib_ascii.h
+uc-osiii\os_tmr.o: .\uCOS-III\Source\os_type.h
+uc-osiii\os_tmr.o: .\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView\os_cpu.h
