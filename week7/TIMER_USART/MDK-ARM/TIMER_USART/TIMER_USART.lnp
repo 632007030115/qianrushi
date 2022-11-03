@@ -1,0 +1,27 @@
+--cpu Cortex-M3
+"timer_usart\startup_stm32f103xb.o"
+"timer_usart\main.o"
+"timer_usart\gpio.o"
+"timer_usart\tim.o"
+"timer_usart\usart.o"
+"timer_usart\stm32f1xx_it.o"
+"timer_usart\stm32f1xx_hal_msp.o"
+"timer_usart\stm32f1xx_hal_gpio_ex.o"
+"timer_usart\stm32f1xx_hal_tim.o"
+"timer_usart\stm32f1xx_hal_tim_ex.o"
+"timer_usart\stm32f1xx_hal.o"
+"timer_usart\stm32f1xx_hal_rcc.o"
+"timer_usart\stm32f1xx_hal_rcc_ex.o"
+"timer_usart\stm32f1xx_hal_gpio.o"
+"timer_usart\stm32f1xx_hal_dma.o"
+"timer_usart\stm32f1xx_hal_cortex.o"
+"timer_usart\stm32f1xx_hal_pwr.o"
+"timer_usart\stm32f1xx_hal_flash.o"
+"timer_usart\stm32f1xx_hal_flash_ex.o"
+"timer_usart\stm32f1xx_hal_exti.o"
+"timer_usart\stm32f1xx_hal_uart.o"
+"timer_usart\system_stm32f1xx.o"
+--strict --scatter "TIMER_USART\TIMER_USART.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "TIMER_USART.map" -o TIMER_USART\TIMER_USART.axf
